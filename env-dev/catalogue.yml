@@ -1,10 +1,10 @@
 appName: catalogue
 configMapData:
   MONGO: "true"
-  MONGO_URL: "mongodb://mongodb-dev.sdevops09.online:27017/catalogue"
+  MONGO_URL: "mongodb://mongodb-dev.sdevops09.shop:27017/catalogue"
   DB_TYPE: "mongo"
   APP_GIT_URL: "https://github.com/roboshop-devops-project-v3/catalogue"
-  DB_HOST: "mongodb-dev.sdevops09.online"
+  DB_HOST: "mongodb-dev.sdevops09.shop"
   SCHEMA_FILE: "db/master-data.js"
 
 service:

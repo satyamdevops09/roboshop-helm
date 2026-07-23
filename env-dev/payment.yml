@@ -4,7 +4,7 @@ configMapData:
   CART_PORT: "8080"
   USER_HOST: "user"
   USER_PORT: "8080"
-  AMQP_HOST: "rabbitmq-dev.sdevops09.online"
+  AMQP_HOST: "rabbitmq-dev.sdevops09.shop"
   AMQP_USER: "roboshop"
   AMQP_PASS: "roboshop123"
 

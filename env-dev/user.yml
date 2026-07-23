@@ -1,8 +1,8 @@
 appName: user
 configMapData:
   MONGO: "true"
-  REDIS_URL: "redis://redis-dev.sdevops09.online:6379"
-  MONGO_URL: "mongodb://mongodb-dev.sdevops09.online:27017/users"
+  REDIS_URL: "redis://redis-dev.sdevops09.shop:6379"
+  MONGO_URL: "mongodb://mongodb-dev.sdevops09.shop:27017/users"
 
 service:
   type: CluesterIP
