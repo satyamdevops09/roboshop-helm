@@ -8,7 +8,7 @@ configMapData:
   SCHEMA_FILE: "db/master-data.js"
 
 service:
-  type: CluesterIP
+  type: ClusterIP
   port: 8080
 
 

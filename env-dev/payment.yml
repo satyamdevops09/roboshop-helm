@@ -9,7 +9,7 @@ configMapData:
   AMQP_PASS: "roboshop123"
 
 service:
-  type: CluesterIP
+  type: ClusterIP
   port: 8080
 
 

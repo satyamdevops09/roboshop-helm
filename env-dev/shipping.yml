@@ -8,7 +8,7 @@ configMapData:
   APP_GIT_URL: "https://github.com/roboshop-devops-project-v3/shipping"
 
 service:
-  type: CluesterIP
+  type: ClusterIP
   port: 8080
 
 

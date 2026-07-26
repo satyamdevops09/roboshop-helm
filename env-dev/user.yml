@@ -5,7 +5,7 @@ configMapData:
   MONGO_URL: "mongodb://mongodb-dev.sdevops09.shop:27017/users"
 
 service:
-  type: CluesterIP
+  type: ClusterIP
   port: 8080
 
 

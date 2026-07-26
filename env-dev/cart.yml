@@ -5,7 +5,7 @@ configMapData:
   CATALOGUE_PORT: "8080"
 
 service:
-  type: CluesterIP
+  type: ClusterIP
   port: 8080
 
 
