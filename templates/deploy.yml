@@ -23,9 +23,10 @@ spec:
               port: {{ .Values.service.port }}
             initialDelaySeconds: 5
             periodSeconds: 5
-            livenessProbe:
-              httpGet:
-                path: /health
-                port: {{ .Values.service.port }}
-              initialDelaySeconds: 5
-              periodSeconds: 5
+
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: {{ .Values.service.port }}
+            initialDelaySeconds: 5
+            periodSeconds: 5
