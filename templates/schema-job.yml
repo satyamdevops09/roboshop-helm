@@ -3,7 +3,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: {{ .values.appName }}-schema
+  name: {{ .Values.appName }}-schema
 spec:
   template:
     spec:
