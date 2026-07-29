@@ -6,11 +6,14 @@ configMapData:
   APP_GIT_URL: "https://github.com/roboshop-devops-project-v3/catalogue"
   DB_HOST: "mongodb-dev.sdevops09.shop"
   SCHEMA_FILE: "db/master-data.js"
+ 
 
 service:
   type: ClusterIP
   port: 8080
 
+schema:
+  enabled: true
 
 
 
