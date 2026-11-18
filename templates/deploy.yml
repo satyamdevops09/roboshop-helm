@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: {{ .Values.appName }}
-          image:479363499437.dkr.ecr.us-east-1.amazonaws.com/{{ .Values.appName }}:{{ .Values.imageTag }}
+          image: 479363499437.dkr.ecr.us-east-1.amazonaws.com/{{ .Values.appName }}:{{ .Values.imageTag }}
           envFrom:
             - configMapRef:
                 name: {{ .Values.appName }}
